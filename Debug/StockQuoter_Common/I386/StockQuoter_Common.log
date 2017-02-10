@@ -1,0 +1,27 @@
+﻿  Invoking "C:\Users\lashmawy\Documents\Soft\OpenDDS\bin\opendds_idl and C:\Users\lashmawy\Documents\Soft\OpenDDS\ACE_wrappers\bin\tao_idl on StockQuoter.idl"
+  tao-idli_yo6YvE.cpp
+  processing StockQuoter.idl
+  tao-idli_LL02Fv.cpp
+  processing StockQuoter.idl
+  Invoking "C:\Users\lashmawy\Documents\Soft\OpenDDS\ACE_wrappers\bin\tao_idl on StockQuoterTypeSupport.idl"
+  tao-idli_msJwwC.cpp
+  processing StockQuoterTypeSupport.idl
+  ExchangeEventDataReaderListenerImpl.cpp
+  QuoteDataReaderListenerImpl.cpp
+  StockQuoterC.cpp
+  StockQuoterS.cpp
+  StockQuoterTypeSupportC.cpp
+  StockQuoterTypeSupportImpl.cpp
+  StockQuoterTypeSupportS.cpp
+  Subscriber.cpp
+  publisher.cpp
+  Generating Code...
+publisher.obj : error LNK2005: "int __cdecl ace_main_i(int,char * * const)" (?ace_main_i@@YAHHQAPAD@Z) already defined in Subscriber.obj
+publisher.obj : error LNK2005: _main already defined in Subscriber.obj
+publisher.obj : error LNK2005: "int QUOTER_DOMAIN_ID" (?QUOTER_DOMAIN_ID@@3HA) already defined in Subscriber.obj
+publisher.obj : error LNK2005: "char const * const QUOTER_QUOTE_TYPE" (?QUOTER_QUOTE_TYPE@@3PBDB) already defined in Subscriber.obj
+publisher.obj : error LNK2005: "char const * const QUOTER_QUOTE_TOPIC" (?QUOTER_QUOTE_TOPIC@@3PBDB) already defined in Subscriber.obj
+publisher.obj : error LNK2005: "char const * const QUOTER_EXCHANGE_EVENT_TYPE" (?QUOTER_EXCHANGE_EVENT_TYPE@@3PBDB) already defined in Subscriber.obj
+publisher.obj : error LNK2005: "char const * const QUOTER_EXCHANGE_EVENT_TOPIC" (?QUOTER_EXCHANGE_EVENT_TOPIC@@3PBDB) already defined in Subscriber.obj
+publisher.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static void __cdecl ORBSVCS_Time::hrtime_to_TimeT(unsigned __int64 &,unsigned __int64)" (__imp_?hrtime_to_TimeT@ORBSVCS_Time@@SAXAA_K_K@Z) referenced in function "unsigned __int64 __cdecl get_timestamp(void)" (?get_timestamp@@YA_KXZ)
+.\StockQuoterCommond.dll : fatal error LNK1120: 1 unresolved externals

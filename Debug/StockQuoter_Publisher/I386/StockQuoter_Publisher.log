@@ -1,0 +1,17 @@
+﻿  Invoking "C:\Users\lashmawy\Documents\Soft\OpenDDS\ACE_wrappers\bin\tao_idl and C:\Users\lashmawy\Documents\Soft\OpenDDS\bin\opendds_idl on StockQuoter.idl"
+  tao-idli_TK9BQj.cpp
+  processing StockQuoter.idl
+  tao-idli_dJ2hjH.cpp
+  processing StockQuoter.idl
+  Invoking "C:\Users\lashmawy\Documents\Soft\OpenDDS\ACE_wrappers\bin\tao_idl on StockQuoterTypeSupport.idl"
+  tao-idli_DO292K.cpp
+  processing StockQuoterTypeSupport.idl
+  StockQuoterC.cpp
+  StockQuoterS.cpp
+  StockQuoterTypeSupportC.cpp
+  StockQuoterTypeSupportImpl.cpp
+  StockQuoterTypeSupportS.cpp
+  publisher.cpp
+  Generating Code...
+  StockQuoter_Publisher.vcxproj -> C:\Users\lashmawy\Documents\test\.\publisher.exe
+  StockQuoter_Publisher.vcxproj -> .\\publisher_exe.pdb (Full PDB)

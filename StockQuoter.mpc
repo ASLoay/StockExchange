@@ -1,0 +1,48 @@
+project(*Common) : dcps {
+ 
+  sharedname     = StockQuoterCommon
+  libout         = .
+  requires += tao_orbsvcs
+  requires += no_opendds_safety_profile
+  includes      += $(TAO_ROOT)/orbsvcs
+  idlflags      += -I$(TAO_ROOT)/orbsvcs
+  
+ TypeSupport_Files {
+    StockQuoter.idl
+  }
+ 
+}
+
+project(*Publisher) : dcpsexe, dcps_tcp, svc_utils {
+   after    += *Common
+  exename   = publisher
+  requires += no_opendds_safety_profile
+
+  includes += $(TAO_ROOT)/orbsvcs
+
+ TypeSupport_Files {
+    StockQuoter.idl
+  }
+  Source_Files {
+    publisher.cpp
+  }
+
+}
+
+project(*Subscriber) : dcpsexe, dcps_tcp {
+  requires += no_opendds_safety_profile
+  exename   = subscriber
+  after    += *publisher
+  includes      += $(TAO_ROOT)/orbsvcs
+
+  TypeSupport_Files {
+    StockQuoter.idl
+  }
+
+  Source_Files {
+    ExchangeEventDataReaderListenerImpl.cpp
+    QuoteDataReaderListenerImpl.cpp
+    subscriber.cpp
+  }
+
+}

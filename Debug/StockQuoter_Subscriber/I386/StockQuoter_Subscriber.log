@@ -1,0 +1,19 @@
+﻿  Invoking "C:\Users\lashmawy\Documents\Soft\OpenDDS\ACE_wrappers\bin\tao_idl and C:\Users\lashmawy\Documents\Soft\OpenDDS\bin\opendds_idl on StockQuoter.idl"
+  tao-idli_FsRJEs.cpp
+  processing StockQuoter.idl
+  tao-idli_l2F7hP.cpp
+  processing StockQuoter.idl
+  Invoking "C:\Users\lashmawy\Documents\Soft\OpenDDS\ACE_wrappers\bin\tao_idl on StockQuoterTypeSupport.idl"
+  tao-idli_DIlQko.cpp
+  processing StockQuoterTypeSupport.idl
+  ExchangeEventDataReaderListenerImpl.cpp
+  QuoteDataReaderListenerImpl.cpp
+  StockQuoterC.cpp
+  StockQuoterS.cpp
+  StockQuoterTypeSupportC.cpp
+  StockQuoterTypeSupportImpl.cpp
+  StockQuoterTypeSupportS.cpp
+  subscriber.cpp
+  Generating Code...
+  StockQuoter_Subscriber.vcxproj -> C:\Users\lashmawy\Documents\test\.\subscriber.exe
+  StockQuoter_Subscriber.vcxproj -> .\\subscriber_exe.pdb (Full PDB)
